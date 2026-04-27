@@ -1,0 +1,31 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --ink: #1a1008;
+  --parchment: #f2e8d5;
+  --brass: #c9943a;
+  --brass-light: #e8bc5c;
+  --brass-dark: #8a6020;
+  --verdigris: #4a8a7a;
+  --red: #b83232;
+  --cream: #fdf6e8;
+  --shadow: rgba(10, 5, 0, 0.55);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: var(--ink);
+  font-family: 'Lato', sans-serif;
+  color: var(--parchment);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
